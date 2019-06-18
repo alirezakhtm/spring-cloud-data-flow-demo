@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          useNativeEncoding: true
+      kafka:
+        binder:
+          brokers: 10.12.47.42:9092
+server:
+  port: 8534
+
